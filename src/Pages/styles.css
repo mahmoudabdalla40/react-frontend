@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .dashboard-nav {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .dashboard-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-nav li {
+    margin-bottom: 1em;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 1em;
+  }
+  
